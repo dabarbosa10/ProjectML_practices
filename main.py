@@ -19,3 +19,8 @@ newLin = Linreg()
 newLin.fit(x_train, y)
 inter = newLin.theta
 print(inter)
+
+
+costf = newLin.cost
+plt.plot(costf)
+plt.show()
